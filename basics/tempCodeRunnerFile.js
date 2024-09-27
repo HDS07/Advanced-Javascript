@@ -1,0 +1,1 @@
+const obj5={...obj3,...obj4};
