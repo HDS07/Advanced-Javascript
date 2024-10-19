@@ -16,6 +16,7 @@
 let para=document.querySelectorAll('p');
 function alertfun(event){
     alert("Click on the para:"+ event.target.textContent);
+    console.log(event.target);
 }
 for(let i=0;i<para.length;i++){
     let paras=para[i];
